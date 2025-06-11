@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: 'Poppins', sans-serif; /* You can change this below */
+  font-family: 'Poppins', sans-serif; 
   display: flex;
   justify-content: center;
   align-items: center;
