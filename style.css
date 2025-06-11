@@ -20,5 +20,17 @@ form {
 }
 
 button {
+  background-color: #990011;
+  color: #FCF6F5;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  margin: 10px;
   border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #73605B;
 }
