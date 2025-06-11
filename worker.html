@@ -1,0 +1,45 @@
+<!-- This is worker.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KaamKhoj | Worker Register</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container p-5">
+
+  <h2 class="mb-4 text-center">👷 Register as Worker</h2>
+
+  <!-- Form starts here -->
+  <form id="workerForm" class="p-4 shadow rounded bg-white">
+
+    <div class="mb-3">
+      <label>Name:</label>
+      <input name="name" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Skill:</label>
+      <input name="skill" id="skill" class="form-control" required>
+      <button type="button" class="btn btn-secondary mt-2" onclick="record()">🎤 Speak Skill</button>
+    </div>
+
+    <div class="mb-3">
+      <label>Location:</label>
+      <input name="location" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label>Phone:</label>
+      <input name="phone" class="form-control">
+    </div>
+
+    <button class="btn btn-primary w-100">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
