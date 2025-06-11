@@ -1,3 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif; /* You can change this below */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FCF6F5;
+  position: relative;
+  overflow: hidden;
+}
+body::before {
+  content: "";
+  background-image: url('https://media.licdn.com/dms/image/v2/D5612AQHJ4JMQKvFwpA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1709617139736?e=2147483647&v=beta&t=zYP7vqo4oudV-Fc7hsuzb1r7E7MX9ndL1dVpn80ssd4'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; 
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+}
+
 h1 {
   color: #990011;
   font-size: 4rem;
